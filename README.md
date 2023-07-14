@@ -27,26 +27,29 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 以下のコマンドを管理者権限の PowerShell で実行して、VSCode をインストールします。
 
-```
+```powershell
 choco install vscode
 ```
 
 ### 4. Node.js のインストール
 
 以下のコマンドを管理者権限の PowerShell で実行して、Node.js をインストールします。
-```choco install nodejs
+```powershell
+choco install nodejs
 ```
 
 ### 5. Git のインストール
 
 以下のコマンドを管理者権限の PowerShell で実行して、Git をインストールします。
-```choco install git
+```powershell
+choco install git
 ```
 
 ### 6. Python のインストール
 
 以下のコマンドを管理者権限の PowerShell で実行して、Python をインストールします（バージョン 3.11.4）。
-```choco install python --version 3.11.4 -y
+```powershell
+choco install python --version 3.11.4 -y
 ```
 
 以上で環境構築が完了しました。これらの手順を実行することで、Angular 公式ドキュメントのチュートリアルをスムーズに進めることができます。
